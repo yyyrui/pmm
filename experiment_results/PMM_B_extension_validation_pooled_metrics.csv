@@ -1,0 +1,10 @@
+level,metric,NHITS,zero_total_series
+Country,pooled_scaled_crps,0.49747296264144253,0
+Country/State,pooled_scaled_crps,0.41155547849477747,0
+Country/State/Zone,pooled_scaled_crps,0.3341956032308479,0
+Country/State/Zone/Region,pooled_scaled_crps,0.2953499747561617,0
+Country/Purpose,pooled_scaled_crps,0.4441495447455267,0
+Country/State/Purpose,pooled_scaled_crps,0.3509254202979325,0
+Country/State/Zone/Purpose,pooled_scaled_crps,0.32591797017492213,0
+Country/State/Zone/Region/Purpose,pooled_scaled_crps,0.3478037154262291,1
+Overall,pooled_scaled_crps,0.37592133372097997,1

@@ -1,0 +1,118 @@
+DATA_AUDIT {"series": 555, "rows": 126540, "S_shape": [555, 304], "negative_count": 0, "fractional_count": 112973, "fractional_fraction": 0.8927848901533112, "zero_fraction_train": 0.10956544780074191, "raw_NeuralForecast_order_matches_S": false, "fixed_order_matches_S": true, "train_variance_over_mean_median": 44.65539111086334, "variance_ratio_is_unconditional_not_proof_of_conditional_overdispersion": true, "splits": {"train": {"start": "1998-01-01", "end": "2014-12-01", "rows": 113220, "months_per_series": 204}, "validation": {"start": "2015-01-01", "end": "2015-12-01", "rows": 6660, "months_per_series": 12}, "test": {"start": "2016-01-01", "end": "2016-12-01", "rows": 6660, "months_per_series": 12}}, "data_sha256": "2c38bd1625889f4414079296507c54762122b0b4c86c0ecc0fe6f84f6f6ead0e", "observed_hierarchy_max_abs_error_train": 3.637978807091713e-12}
+Seed set to 1
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+/Users/cys/Desktop/meeting/pmm/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+GMM_fixed_formal {'step': 50, 'loss': 6.049795150756836, 'seconds': 2.2447140216827393}
+GMM_fixed_formal {'step': 100, 'loss': 5.34577751159668, 'seconds': 5.767092943191528}
+GMM_fixed_formal {'step': 150, 'loss': 5.208003997802734, 'seconds': 9.27140998840332}
+GMM_fixed_formal {'step': 200, 'loss': 5.274332523345947, 'seconds': 12.707547903060913}
+GMM_fixed_formal {'step': 250, 'loss': 4.73768424987793, 'seconds': 15.803412914276123}
+GMM_fixed_formal {'step': 300, 'loss': 5.153450965881348, 'seconds': 18.866206884384155}
+GMM_fixed_formal {'step': 350, 'loss': 4.863239765167236, 'seconds': 21.93099808692932}
+GMM_fixed_formal {'step': 400, 'loss': 4.930140018463135, 'seconds': 25.043866872787476}
+GMM_fixed_formal {'step': 450, 'loss': 5.162744045257568, 'seconds': 28.14264702796936}
+GMM_fixed_formal {'step': 500, 'loss': 5.241549491882324, 'seconds': 31.281188011169434}
+GMM_fixed_formal {'step': 550, 'loss': 4.896048545837402, 'seconds': 34.35127806663513}
+GMM_fixed_formal {'step': 600, 'loss': 5.198462009429932, 'seconds': 37.43781089782715}
+GMM_fixed_formal {'step': 650, 'loss': 4.964386463165283, 'seconds': 40.58156108856201}
+GMM_fixed_formal {'step': 700, 'loss': 4.445201396942139, 'seconds': 43.70733594894409}
+GMM_fixed_formal {'step': 750, 'loss': 4.52888822555542, 'seconds': 46.79166388511658}
+GMM_fixed_formal {'step': 800, 'loss': 4.9506049156188965, 'seconds': 49.91539788246155}
+GMM_fixed_formal {'step': 850, 'loss': 4.825153827667236, 'seconds': 53.07241916656494}
+GMM_fixed_formal {'step': 900, 'loss': 4.194082736968994, 'seconds': 56.49748611450195}
+GMM_fixed_formal {'step': 950, 'loss': 4.281467914581299, 'seconds': 60.043582916259766}
+GMM_fixed_formal {'step': 1000, 'loss': 4.786368370056152, 'seconds': 63.23484706878662}
+GMM_fixed_formal {'step': 1050, 'loss': 4.408916473388672, 'seconds': 66.41815304756165}
+GMM_fixed_formal {'step': 1100, 'loss': 4.789369106292725, 'seconds': 69.60521078109741}
+GMM_fixed_formal {'step': 1150, 'loss': 3.9151008129119873, 'seconds': 72.74443912506104}
+GMM_fixed_formal {'step': 1200, 'loss': 4.735797882080078, 'seconds': 75.83433294296265}
+GMM_fixed_formal {'step': 1250, 'loss': 4.9803361892700195, 'seconds': 78.94449210166931}
+GMM_fixed_formal {'step': 1300, 'loss': 4.853189468383789, 'seconds': 82.2304630279541}
+GMM_fixed_formal {'step': 1350, 'loss': 4.978912830352783, 'seconds': 85.51126503944397}
+GMM_fixed_formal {'step': 1400, 'loss': 4.622181415557861, 'seconds': 88.77825093269348}
+GMM_fixed_formal {'step': 1450, 'loss': 4.785440921783447, 'seconds': 91.92684006690979}
+GMM_fixed_formal {'step': 1500, 'loss': 4.705018997192383, 'seconds': 95.02579998970032}
+GMM_fixed_formal {'step': 1550, 'loss': 4.550961971282959, 'seconds': 98.14431691169739}
+GMM_fixed_formal {'step': 1600, 'loss': 4.586076259613037, 'seconds': 101.26767992973328}
+GMM_fixed_formal {'step': 1650, 'loss': 5.542577266693115, 'seconds': 104.38483309745789}
+GMM_fixed_formal {'step': 1700, 'loss': 4.72978401184082, 'seconds': 107.50509285926819}
+GMM_fixed_formal {'step': 1750, 'loss': 4.587386608123779, 'seconds': 110.62329506874084}
+GMM_fixed_formal {'step': 1800, 'loss': 4.356518745422363, 'seconds': 113.72679710388184}
+GMM_fixed_formal {'step': 1850, 'loss': 4.614585876464844, 'seconds': 116.85287809371948}
+GMM_fixed_formal {'step': 1900, 'loss': 4.603929042816162, 'seconds': 119.98544883728027}
+GMM_fixed_formal {'step': 1950, 'loss': 4.316147327423096, 'seconds': 123.08958315849304}
+GMM_fixed_formal {'step': 2000, 'loss': 4.513020038604736, 'seconds': 126.22363686561584}
+`Trainer.fit` stopped: `max_steps=2000` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+/Users/cys/Desktop/meeting/pmm/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+FINISHED GMM_fixed_formal 2000 0.12099858949534602
+Seed set to 1
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+/Users/cys/Desktop/meeting/pmm/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+PMM_A_formal {'step': 50, 'loss': 8.50161361694336, 'seconds': 2.3834660053253174}
+PMM_A_formal {'step': 100, 'loss': 5.847591400146484, 'seconds': 7.266200065612793}
+PMM_A_formal {'step': 150, 'loss': 5.707971096038818, 'seconds': 12.050182104110718}
+PMM_A_formal {'step': 200, 'loss': 5.8014068603515625, 'seconds': 16.848389148712158}
+PMM_A_formal {'step': 250, 'loss': 5.369598865509033, 'seconds': 21.752047061920166}
+PMM_A_formal {'step': 300, 'loss': 5.396871089935303, 'seconds': 26.623860836029053}
+PMM_A_formal {'step': 350, 'loss': 5.689208984375, 'seconds': 31.631888151168823}
+PMM_A_formal {'step': 400, 'loss': 5.849113464355469, 'seconds': 36.5525689125061}
+PMM_A_formal {'step': 450, 'loss': 5.950994491577148, 'seconds': 41.48222517967224}
+PMM_A_formal {'step': 500, 'loss': 5.793308734893799, 'seconds': 46.52419090270996}
+PMM_A_formal {'step': 550, 'loss': 5.375134468078613, 'seconds': 51.49902105331421}
+PMM_A_formal {'step': 600, 'loss': 6.093602657318115, 'seconds': 56.25266885757446}
+PMM_A_formal {'step': 650, 'loss': 5.372929096221924, 'seconds': 61.022216796875}
+PMM_A_formal {'step': 700, 'loss': 5.880189418792725, 'seconds': 66.31883478164673}
+PMM_A_formal {'step': 750, 'loss': 5.237550258636475, 'seconds': 71.16951489448547}
+PMM_A_formal {'step': 800, 'loss': 5.671706676483154, 'seconds': 75.9806740283966}
+PMM_A_formal {'step': 850, 'loss': 5.769453525543213, 'seconds': 81.45823407173157}
+PMM_A_formal {'step': 900, 'loss': 6.438084602355957, 'seconds': 87.51414179801941}
+PMM_A_formal {'step': 950, 'loss': 4.971816062927246, 'seconds': 93.06287884712219}
+PMM_A_formal {'step': 1000, 'loss': 5.417213439941406, 'seconds': 97.84813594818115}
+PMM_A_formal {'step': 1050, 'loss': 5.3391032218933105, 'seconds': 103.65062689781189}
+PMM_A_formal {'step': 1100, 'loss': 5.384936332702637, 'seconds': 108.78332376480103}
+PMM_A_formal {'step': 1150, 'loss': 5.145358085632324, 'seconds': 113.645348072052}
+PMM_A_formal {'step': 1200, 'loss': 4.908336162567139, 'seconds': 118.72946882247925}
+PMM_A_formal {'step': 1250, 'loss': 5.671108722686768, 'seconds': 123.51915192604065}
+PMM_A_formal {'step': 1300, 'loss': 5.498477935791016, 'seconds': 128.35697603225708}
+PMM_A_formal {'step': 1350, 'loss': 5.6313676834106445, 'seconds': 133.3587508201599}
+PMM_A_formal {'step': 1400, 'loss': 5.061652660369873, 'seconds': 138.1305980682373}
+PMM_A_formal {'step': 1450, 'loss': 4.574874401092529, 'seconds': 142.9099259376526}
+PMM_A_formal {'step': 1500, 'loss': 4.76263952255249, 'seconds': 147.73916006088257}
+PMM_A_formal {'step': 1550, 'loss': 5.557596683502197, 'seconds': 152.56645393371582}
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+/Users/cys/Desktop/meeting/pmm/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+FINISHED PMM_A_formal 1550 0.3992463528885444
+Seed set to 1
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+/Users/cys/Desktop/meeting/pmm/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+PMM_B_formal {'step': 50, 'loss': 9.594176292419434, 'seconds': 2.281029224395752}
+PMM_B_formal {'step': 100, 'loss': 6.514902591705322, 'seconds': 7.007254123687744}
+PMM_B_formal {'step': 150, 'loss': 5.722536087036133, 'seconds': 11.687034130096436}
+PMM_B_formal {'step': 200, 'loss': 6.143080234527588, 'seconds': 16.32827401161194}
+PMM_B_formal {'step': 250, 'loss': 5.7892632484436035, 'seconds': 21.11878514289856}
+PMM_B_formal {'step': 300, 'loss': 5.389809608459473, 'seconds': 25.928542137145996}
+PMM_B_formal {'step': 350, 'loss': 5.47563362121582, 'seconds': 30.629987239837646}
+PMM_B_formal {'step': 400, 'loss': 5.171457290649414, 'seconds': 35.293272256851196}
+PMM_B_formal {'step': 450, 'loss': 4.647838115692139, 'seconds': 39.998291015625}
+PMM_B_formal {'step': 500, 'loss': 5.9395833015441895, 'seconds': 44.919711112976074}
+PMM_B_formal {'step': 550, 'loss': 6.043214797973633, 'seconds': 49.99513125419617}
+PMM_B_formal {'step': 600, 'loss': 5.568866729736328, 'seconds': 54.92049312591553}
+PMM_B_formal {'step': 650, 'loss': 5.34065055847168, 'seconds': 59.742480993270874}
+PMM_B_formal {'step': 700, 'loss': 5.885642051696777, 'seconds': 65.78331017494202}
+PMM_B_formal {'step': 750, 'loss': 5.444159507751465, 'seconds': 70.9104311466217}
+PMM_B_formal {'step': 800, 'loss': 5.371560096740723, 'seconds': 75.71489214897156}
+PMM_B_formal {'step': 850, 'loss': 4.6713690757751465, 'seconds': 80.83194923400879}
+PMM_B_formal {'step': 900, 'loss': 5.6387457847595215, 'seconds': 85.7248911857605}
+PMM_B_formal {'step': 950, 'loss': 5.296742916107178, 'seconds': 90.58611607551575}
+PMM_B_formal {'step': 1000, 'loss': 5.414429664611816, 'seconds': 95.61052513122559}
+PMM_B_formal {'step': 1050, 'loss': 5.050415992736816, 'seconds': 100.59052109718323}
+PMM_B_formal {'step': 1100, 'loss': 5.841415882110596, 'seconds': 106.75784516334534}
+PMM_B_formal {'step': 1150, 'loss': 5.094397068023682, 'seconds': 111.81442523002625}
+PMM_B_formal {'step': 1200, 'loss': 5.319344520568848, 'seconds': 116.82320427894592}
+PMM_B_formal {'step': 1250, 'loss': 5.150692462921143, 'seconds': 121.75866413116455}

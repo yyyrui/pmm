@@ -1,0 +1,23 @@
+{
+  "selected": "PMM_C",
+  "phase": "extension",
+  "max_steps": 2000,
+  "selection_metric": "validation Overall pooled_scaled_crps",
+  "validation_scores": {
+    "PMM_A": 0.3992463528885444,
+    "PMM_B": 0.37592133372097997,
+    "PMM_C": 0.1252036383279902
+  },
+  "run_ids": {
+    "PMM_A": "PMM_A_formal",
+    "PMM_B": "PMM_B_extension",
+    "PMM_C": "PMM_C_extension"
+  },
+  "excluded": {},
+  "selected_at_epoch": 1793252498.640075,
+  "test_evaluated": true,
+  "previous_test_results_already_seen": true,
+  "limitation": "Extension of predeclared validation search; test period is reused and is not a fresh independent confirmation.",
+  "test_scrps": 0.11676661386000264,
+  "finished_epoch": 1793252506.70316
+}

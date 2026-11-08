@@ -1,0 +1,25 @@
+{
+  "phase": "extension",
+  "settings_predeclared_in_first_round": true,
+  "unique_PMM_settings_total": 3,
+  "configs": [
+    {
+      "name": "PMM_B",
+      "loss": "PMM",
+      "lr": 0.0003
+    },
+    {
+      "name": "PMM_C",
+      "loss": "PMM",
+      "lr": 0.0003,
+      "weighted": true
+    }
+  ],
+  "selection_metric": "validation Overall pooled_scaled_crps",
+  "previous_test_results_already_seen": true,
+  "new_test_results_exploratory": true,
+  "deadline_epoch": 1793253837.0,
+  "started_epoch": 1793252145.206686,
+  "restart_B_from_seed_1": true,
+  "restart_reason": "First-round run had no saved weights or optimizer state."
+}

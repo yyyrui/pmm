@@ -1,0 +1,25 @@
+{
+  "started_at": "2026-10-29T12:33:57+08:00",
+  "deadline": "2026-10-29T14:03:57+08:00",
+  "original_file": "hierarchical_forecasting.ipynb",
+  "original_sha256": "074872c915b210f84833c8eed11e238856e01ac294d90003d68fc15cf66a6671",
+  "original_saved_overall_scrps": 0.122793,
+  "original_saved_scores_are_not_new_results": true,
+  "finished_at": "2026-10-29T13:33:26.613991+08:00",
+  "original_unchanged": true,
+  "formal_completed": [
+    "GMM_fixed",
+    "PMM_A",
+    "PMM_B",
+    "PMM_C"
+  ],
+  "formal_incomplete": {},
+  "test_evaluated_after_selection": true,
+  "initial_deadline": "2026-10-29T13:33:57+08:00",
+  "extension_requested_at": "2026-10-29T13:35:40.402934+08:00",
+  "extension_minutes": 30,
+  "status": "extension_completed",
+  "extension_finished_at": "2026-10-29T13:45:49.034349+08:00",
+  "test_reused_in_extension": true,
+  "selected_pmm": "PMM_C"
+}

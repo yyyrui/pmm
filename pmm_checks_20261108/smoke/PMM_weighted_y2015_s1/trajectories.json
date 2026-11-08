@@ -1,0 +1,21 @@
+{
+  "training": [
+    [
+      0,
+      104.2393569946289
+    ],
+    [
+      1,
+      51.95405578613281
+    ]
+  ],
+  "validation": [
+    {
+      "step": 2,
+      "native_valid_loss": 49.0311393737793,
+      "best_step": 2,
+      "best_native_valid_loss": 49.0311393737793,
+      "elapsed_seconds": 3.29
+    }
+  ]
+}

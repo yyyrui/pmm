@@ -1,0 +1,8 @@
+{
+  "same_original_weights": true,
+  "retrained": false,
+  "only_inference_order_fixed": true,
+  "validation_pooled_scrps": 0.11683230746550792,
+  "test_evaluated": false,
+  "sampling_seed": 1
+}

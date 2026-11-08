@@ -1,0 +1,49 @@
+DATA_AUDIT {"series": 555, "rows": 126540, "S_shape": [555, 304], "negative_count": 0, "fractional_count": 112973, "fractional_fraction": 0.8927848901533112, "zero_fraction_train": 0.10956544780074191, "raw_NeuralForecast_order_matches_S": false, "fixed_order_matches_S": true, "train_variance_over_mean_median": 44.65539111086334, "variance_ratio_is_unconditional_not_proof_of_conditional_overdispersion": true, "splits": {"train": {"start": "1998-01-01", "end": "2014-12-01", "rows": 113220, "months_per_series": 204}, "validation": {"start": "2015-01-01", "end": "2015-12-01", "rows": 6660, "months_per_series": 12}, "test": {"start": "2016-01-01", "end": "2016-12-01", "rows": 6660, "months_per_series": 12}}, "data_sha256": "2c38bd1625889f4414079296507c54762122b0b4c86c0ecc0fe6f84f6f6ead0e", "observed_hierarchy_max_abs_error_train": 3.637978807091713e-12}
+Seed set to 1
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+/Users/cys/Desktop/meeting/pmm/.venv/lib/python3.10/site-packages/pytorch_lightning/utilities/_pytree.py:21: `isinstance(treespec, LeafSpec)` is deprecated, use `isinstance(treespec, TreeSpec) and treespec.is_leaf()` instead.
+{
+  "name": "PMM_A_formal",
+  "phase": "validation_inputs_only",
+  "forecast_points": 6660,
+  "rate_min": 0.0010000000474974513,
+  "rate_max": 65969.84375,
+  "component_rate_floor_fraction": 0.008783783783783784,
+  "all_components_at_floor_fraction": 0.0,
+  "weighted_rate_floor_mass": 0.008783784694969654,
+  "mean_weight_entropy": 2.3025853633880615,
+  "median_mixture_variance_over_mean": 211.5690155029297,
+  "note": "Rates at the softplus floor may have near-zero gradients; this inference probe does not measure training gradients or prove causation.",
+  "validation_mean_NLL_with_fractional_extension": 5.544317390649495,
+  "prior_component_weight_mean": [
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869,
+    0.09999766200780869
+  ],
+  "posterior_component_responsibility_mean": [
+    0.11218157089608204,
+    0.1081688866494702,
+    0.11856199541493223,
+    0.09889247503103303,
+    0.09680418435653937,
+    0.12935816551789825,
+    0.03907837560649245,
+    0.1052794533161246,
+    0.08614075204678423,
+    0.1055341411646424
+  ],
+  "mean_effective_prior_components": 10.0,
+  "mean_effective_posterior_components": 2.1942697262249125,
+  "posterior_below_1e_minus_6_fraction": 0.5562762762762763,
+  "raw_mean_bias": 106.71403654044768,
+  "bottom_raw_mean_bias": 54.504692309852096,
+  "diagnostic_caution": "Posterior responsibility concentration is conditional on each observation; by itself it does not prove a component is unused or cause forecast error."
+}

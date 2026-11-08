@@ -1,0 +1,7 @@
+{
+  "workspace": "/Users/cys/Desktop/meeting/pmm",
+  "user_authorized_project_tests": true,
+  "user_authorized_read_only_existing_python_runtime": "/Users/cys/.local/share/uv/python/cpython-3.10-macos-aarch64-none/",
+  "all_experiment_outputs_and_configured_caches_inside_workspace": true,
+  "no_package_install_or_network_download": true
+}

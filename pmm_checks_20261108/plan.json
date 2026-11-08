@@ -1,0 +1,60 @@
+{
+  "date": "2026-11-08",
+  "validation_years": [
+    2014,
+    2015
+  ],
+  "training_seeds": [
+    1,
+    7,
+    21
+  ],
+  "configs": {
+    "GMM": {
+      "loss": "GMM",
+      "lr": 0.001,
+      "weighted": false
+    },
+    "PMM_fixed": {
+      "loss": "PMM",
+      "lr": 0.0003,
+      "weighted": false
+    },
+    "PMM_weighted": {
+      "loss": "PMM",
+      "lr": 0.0003,
+      "weighted": true
+    }
+  },
+  "max_steps": 2000,
+  "runs": 18,
+  "common": {
+    "horizon": 12,
+    "input_size": 24,
+    "components": 10,
+    "samples": 1000,
+    "scaler": "robust",
+    "val_check_steps": 50,
+    "early_stop_patience": 10,
+    "sampling_seed": 1
+  },
+  "checkpoints": [
+    "last",
+    "best"
+  ],
+  "best_definition": "lowest native ptl/val_loss, excluding sanity check",
+  "selection": "minimum mean validation Overall pooled sCRPS across both years and all three training seeds; select PMM configuration/checkpoint and GMM checkpoint separately",
+  "test_rule": "2016 scored only after complete validation selection, for the selected PMM and GMM policies, all 3 prespecified seeds; reused period is exploratory, not independent confirmation",
+  "limitations": [
+    "Rolling years share training history; six runs are not six independent datasets.",
+    "2015 and 2016 have been inspected in the existing October experiments.",
+    "Native validation is before reconciliation; final comparison is after BottomUp.",
+    "No rounding or rescaling of target units."
+  ],
+  "preserved_files": {
+    "hierarchical_forecasting.ipynb": "074872c915b210f84833c8eed11e238856e01ac294d90003d68fc15cf66a6671",
+    "ＰＰＰ.ipynb": "a3a7f3c4c16f2541f1ab72342c2e35d1ba6447591eb4e2acb3ff9ace76b71a83",
+    "experiment_results/comparison.csv": "7389b94a70ff3ecf05c849570fcc071a36791ca15ab55969eab97309eb881466",
+    "experiment_results/selection.json": "30460c53fd9674de0d3ff75a548a31965b60d63dde042f3402e515c24f13f072"
+  }
+}

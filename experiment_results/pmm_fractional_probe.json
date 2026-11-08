@@ -1,0 +1,17 @@
+{
+  "target": 0.25,
+  "loss": 0.9114986658096313,
+  "gradient_finite": true,
+  "gradients": [
+    [
+      [
+        [
+          0.21114981174468994,
+          0.2337331771850586
+        ]
+      ]
+    ]
+  ],
+  "implementation_accepts_nonnegative_fractions": true,
+  "mathematically_a_discrete_count_model": true
+}

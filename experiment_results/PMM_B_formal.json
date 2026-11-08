@@ -1,0 +1,20 @@
+{
+  "name": "PMM_B",
+  "loss": "PMM",
+  "lr": 0.0003,
+  "phase": "formal",
+  "max_steps": 2000,
+  "seed": 1,
+  "num_samples": 1000,
+  "input_size": 24,
+  "scaler": "robust",
+  "val_check_steps": 50,
+  "early_stop_patience_steps": 10,
+  "started_epoch": 1793251524.59032,
+  "test_evaluated": false,
+  "ordering_fixed": true,
+  "checkpoint_policy": "final weights, matching original notebook",
+  "status": "interrupted",
+  "observed_progress_steps": 1250,
+  "reason": "Execution session ended during conversation interruption; no final checkpoint or validation forecast was saved."
+}

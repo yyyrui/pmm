@@ -1,0 +1,11 @@
+{
+  "reviewer": "review_pmm_experiment",
+  "read_only_review": true,
+  "validation_predictions_independently_recomputed": 36,
+  "test_predictions_independently_recomputed": 6,
+  "all_scores_match": true,
+  "validation_targets_excluded_from_gradient_training": true,
+  "test_mean_GMM": 0.11722535447299116,
+  "test_mean_PMM_weighted": 0.11763403753777736,
+  "conclusion": "Learned-weight PMM improves over fixed-weight PMM and approaches GMM; no evidence of stable superiority over GMM."
+}

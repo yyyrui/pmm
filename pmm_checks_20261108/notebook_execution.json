@@ -1,0 +1,8 @@
+{
+  "notebook": "PMM_改善版.ipynb",
+  "code_cells": 4,
+  "all_passed": true,
+  "execution": "IPython in-process; no listening socket or external notebook server",
+  "training_started": false,
+  "predictions_match_evaluated_model_exactly": true
+}

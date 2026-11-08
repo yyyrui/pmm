@@ -1,0 +1,9 @@
+{
+  "source": "PMM_逐項修改.md",
+  "code_blocks_passed": 6,
+  "steps_for_smoke_only": 2,
+  "forecast_year_for_smoke_only": 2015,
+  "forecast_rows": 6660,
+  "best_weights_restored": true,
+  "purpose": "API and data-flow smoke test, not a new performance experiment"
+}

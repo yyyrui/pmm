@@ -1,0 +1,85 @@
+{
+  "run_id": "PMM_fixed_y2014_s21",
+  "name": "PMM_fixed",
+  "validation_year": 2014,
+  "training_seed": 21,
+  "sampling_seed": 1,
+  "config": {
+    "loss": "PMM",
+    "lr": 0.0003,
+    "weighted": false
+  },
+  "max_steps": 2000,
+  "status": "completed",
+  "source_sha256": "07f4f903ed5979fdbba04589b3d4e4ee4b6ea3861a49568d1d18695d0112f2a1",
+  "test_evaluated": false,
+  "actual_steps": 1000,
+  "best_step": 500,
+  "best_native_valid_loss": 37.259151458740234,
+  "final_native_valid_loss": 38.030784606933594,
+  "stop_reason": "early_stopping",
+  "gradient_train_end": "2013-12-01",
+  "validation_start": "2014-01-01",
+  "validation_end": "2014-12-01",
+  "data_audit": {
+    "series": 555,
+    "rows": 126540,
+    "S_shape": [
+      555,
+      304
+    ],
+    "raw_order_matches_S": false,
+    "corrected_order_matches_S": true,
+    "bottom_identity": true,
+    "fractional_fraction": 0.8927848901533112,
+    "observed_coherence_max_error": 3.637978807091713e-12,
+    "data_sha256": "2c38bd1625889f4414079296507c54762122b0b4c86c0ecc0fe6f84f6f6ead0e",
+    "S_sha256": "7f8a911922fb9d19a470b7c89769ec30bba686685f2899d62db413be86ad586f"
+  },
+  "last": {
+    "metrics": {
+      "level": "Overall",
+      "pooled_scrps": 0.39114517255511616,
+      "mae": 240.51623257449546,
+      "rmse": 904.4061698059686,
+      "wape": 0.6600207467449055,
+      "bias": 218.84565018338634,
+      "coverage90": 0.9390390390390391,
+      "width90": 987.499846491203,
+      "negative_mean_count": 0,
+      "zero_total_series": 6,
+      "native_series_scaled_crps_mean": 535359970436402.2
+    },
+    "checks": {
+      "rows": 6660,
+      "finite": true,
+      "quantiles_monotone": true,
+      "mean_coherence_max_error": 6.548361852765083e-11,
+      "metric_matches_library_after_pooling": true
+    }
+  },
+  "best": {
+    "metrics": {
+      "level": "Overall",
+      "pooled_scrps": 0.342921878518997,
+      "mae": 203.2019091747754,
+      "rmse": 745.0628523623993,
+      "wape": 0.557623385323838,
+      "bias": 167.0142419339266,
+      "coverage90": 0.9133633633633633,
+      "width90": 786.0246789117875,
+      "negative_mean_count": 0,
+      "zero_total_series": 6,
+      "native_series_scaled_crps_mean": 525313470773417.4
+    },
+    "checks": {
+      "rows": 6660,
+      "finite": true,
+      "quantiles_monotone": true,
+      "mean_coherence_max_error": 5.820766091346741e-11,
+      "metric_matches_library_after_pooling": true
+    }
+  },
+  "reload_exact_match": true,
+  "elapsed_seconds": 831.5
+}

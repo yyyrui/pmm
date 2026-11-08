@@ -1,0 +1,20 @@
+{
+  "name": "PMM_B",
+  "loss": "PMM",
+  "lr": 0.0003,
+  "phase": "short",
+  "max_steps": 200,
+  "seed": 1,
+  "num_samples": 1000,
+  "input_size": 24,
+  "scaler": "robust",
+  "val_check_steps": 50,
+  "early_stop_patience_steps": 10,
+  "started_epoch": 1793251167.335299,
+  "test_evaluated": false,
+  "ordering_fixed": true,
+  "checkpoint_policy": "final weights, matching original notebook",
+  "status": "interrupted",
+  "reason": "Stopped before test evaluation to enforce validation-only smoke phase.",
+  "observed_progress_steps": 50
+}

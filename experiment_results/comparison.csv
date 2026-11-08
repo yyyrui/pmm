@@ -1,0 +1,9 @@
+run,phase,status,actual_steps,validation_pooled_scrps,test_pooled_scrps,learning_rate,weighted,timed_out
+GMM_fixed,short,completed,200,0.17848767134353866,,0.001,False,False
+PMM_A,short,completed,200,0.39577105061621753,,0.001,False,False
+PMM_B,short,interrupted,50,,,0.0003,False,False
+GMM_fixed,formal,completed,2000,0.12099858949534602,0.11736245900729869,0.001,False,False
+PMM_A,formal,completed,1550,0.3992463528885444,0.4096504725093039,0.001,False,False
+PMM_B,formal,interrupted,1250,,,0.0003,False,False
+PMM_B,extension,completed,1400,0.37592133372097997,,0.0003,False,False
+PMM_C,extension,completed,2000,0.1252036383279902,0.11676661386000264,0.0003,True,False

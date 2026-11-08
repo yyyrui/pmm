@@ -1,0 +1,13 @@
+{
+  "name": "PMM_A_short",
+  "phase": "validation_inputs_only",
+  "forecast_points": 6660,
+  "rate_min": 0.0010000000474974513,
+  "rate_max": 68625.8203125,
+  "component_rate_floor_fraction": 0.018618618618618618,
+  "all_components_at_floor_fraction": 0.0,
+  "weighted_rate_floor_mass": 0.018618617206811905,
+  "mean_weight_entropy": 2.3025853633880615,
+  "median_mixture_variance_over_mean": 119.12952423095703,
+  "note": "Rates at the softplus floor may have near-zero gradients; this inference probe does not measure training gradients or prove causation."
+}

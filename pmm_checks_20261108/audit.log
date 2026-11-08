@@ -1,0 +1,78 @@
+{
+  "series": 555,
+  "rows": 126540,
+  "S_shape": [
+    555,
+    304
+  ],
+  "raw_order_matches_S": false,
+  "corrected_order_matches_S": true,
+  "bottom_identity": true,
+  "fractional_fraction": 0.8927848901533112,
+  "observed_coherence_max_error": 3.637978807091713e-12,
+  "data_sha256": "2c38bd1625889f4414079296507c54762122b0b4c86c0ecc0fe6f84f6f6ead0e",
+  "S_sha256": "7f8a911922fb9d19a470b7c89769ec30bba686685f2899d62db413be86ad586f",
+  "folds": [
+    {
+      "year": 2014,
+      "train_start": "1998-01-01",
+      "train_end": "2013-12-01",
+      "validation_start": "2014-01-01",
+      "validation_end": "2014-12-01",
+      "train_rows": 106560,
+      "validation_rows": 6660,
+      "zero_total_validation_series": 6,
+      "seasonal_naive_overall": {
+        "level": "Overall",
+        "pooled_scrps": 0.22871995566065498,
+        "mae": 83.34717101153151,
+        "rmse": 210.42973924336033,
+        "wape": 0.22871995566065495,
+        "bias": -30.330297981981957,
+        "coverage90": 0.060810810810810814,
+        "width90": 0.0,
+        "negative_mean_count": 0,
+        "zero_total_series": 6,
+        "native_series_scaled_crps_mean": 362786427691890.06
+      },
+      "checks": {
+        "rows": 6660,
+        "finite": true,
+        "quantiles_monotone": true,
+        "mean_coherence_max_error": 3.637978807091713e-12,
+        "metric_matches_library_after_pooling": true
+      }
+    },
+    {
+      "year": 2015,
+      "train_start": "1998-01-01",
+      "train_end": "2014-12-01",
+      "validation_start": "2015-01-01",
+      "validation_end": "2015-12-01",
+      "train_rows": 113220,
+      "validation_rows": 6660,
+      "zero_total_validation_series": 1,
+      "seasonal_naive_overall": {
+        "level": "Overall",
+        "pooled_scrps": 0.19629260218103156,
+        "mae": 74.40591788393392,
+        "rmse": 162.40001866671972,
+        "wape": 0.19629260218103153,
+        "bias": -14.649069858979,
+        "coverage90": 0.05195195195195195,
+        "width90": 0.0,
+        "negative_mean_count": 0,
+        "zero_total_series": 1,
+        "native_series_scaled_crps_mean": 0.8660447153814261
+      },
+      "checks": {
+        "rows": 6660,
+        "finite": true,
+        "quantiles_monotone": true,
+        "mean_coherence_max_error": 3.637978807091713e-12,
+        "metric_matches_library_after_pooling": true
+      }
+    }
+  ],
+  "preserved_files_match": true
+}

@@ -1,7 +1,0 @@
-{
-  "step": 1000,
-  "native_valid_loss": 38.030784606933594,
-  "best_step": 500,
-  "best_native_valid_loss": 37.259151458740234,
-  "elapsed_seconds": 204.37
-}

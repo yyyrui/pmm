@@ -1,7 +1,0 @@
-{
-  "rows": 6660,
-  "finite": true,
-  "quantiles_monotone": true,
-  "mean_coherence_max_error": 2.9103830456733704e-11,
-  "metric_matches_library_after_pooling": true
-}

@@ -1,6 +1,0 @@
-{
-  "run": "GMM_fixed_formal",
-  "forecast_keys_match": true,
-  "prediction_max_abs_diff": 0.0,
-  "retrained": false
-}

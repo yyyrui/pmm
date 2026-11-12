@@ -1,8 +1,0 @@
-{
-  "model": "NHITS+PMM",
-  "max_steps": 2,
-  "completed_steps": 2,
-  "prediction_rows": 6660,
-  "purpose": "training and prediction viability only; default 80/90 intervals; no scored comparison",
-  "environment": "CPU, one thread, KMP_DUPLICATE_LIB_OK=TRUE"
-}

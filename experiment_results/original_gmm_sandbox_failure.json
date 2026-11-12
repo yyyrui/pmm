@@ -1,6 +1,0 @@
-{
-  "exit_code": 139,
-  "error": "OMP: Error #179: Function pthread_mutex_init failed; System error #22: Invalid argument",
-  "stage": "fit before first observed training result",
-  "retry": "same original code outside sandbox"
-}

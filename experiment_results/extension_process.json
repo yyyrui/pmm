@@ -1,5 +1,0 @@
-{
-  "pid": 3190,
-  "script": "extend_experiment.py",
-  "log": "experiment_results/extension_experiment.log"
-}
